@@ -1,10 +1,16 @@
-# Ref 
-- [https://github.com/docker/awesome-compose/tree/master/traefik-golang]
+## Ref (traefik-golang) 
+- https://github.com/docker/awesome-compose/tree/master/traefik-golang
+
+## Wakatime swarm02
+- https://wakatime.com/@spcn18/projects/jbjoorxblb
+
+## URL (traefik-golang)
+- https://github.com/docker/awesome-compose/tree/master/traefik-golang
  
  **ขั้นตอนการเตรียมเครื่องมือและขั้นตอนติดตั้งอยู่ใน swarm01**
- ```
+
 https://github.com/DNujira/swarm01
- ```
+
  **Compose image โดย image ที่เลือก คือ traefik-golang**
  ```
  version: '3.7'
