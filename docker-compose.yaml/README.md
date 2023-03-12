@@ -38,3 +38,14 @@
  - **traefik.http.services.${APPNAME}.loadbalancer.server.port=80**
  
     - กำหนดให้ traefik ใช้ port 80 โดยใน ${APPNAME} ตั้งชื่อเป็น nujiwhale
+
+- **resources:<br>
+        reservations:<br>
+          cpus: '0.1'<br>
+          memory: 6M<br>
+        limits:<br>
+          cpus: '0.4'<br>
+          memory: 40M**
+
+    - กำหนด resource ขั้นต่ำ คือ cpu 0.1 และ memory 6M
+    - กำหนด resource ขั้นสูงสุดที่ใช้ได้ คือ cpu 0.4 และ memory 40M
