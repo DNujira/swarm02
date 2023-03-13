@@ -14,7 +14,7 @@
 
 ## ขั้นตอนการสร้าง backend
 
-    1.กำหนดตัว build โดยใช้ dockerfile  ที่อยู่ใน directory ชื่อ backend โดยให้เลือกไฟล์ dev.envs
+1.กำหนดตัว build โดยใช้ dockerfile  ที่อยู่ใน directory ชื่อ backend โดยให้เลือกไฟล์ dev.envs
     
 - **traefik.http.routers.go.rule=Path(`/`)**
 
