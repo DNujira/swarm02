@@ -21,6 +21,10 @@ sudo docker images  //เพื่อดู images ที่มีอยู่
 ```
 docker login  //หลังจากใช้คำสั่งนี้ให้ใส่ username และ password ของ Docker Hub ที่ต้องการ**
 ```
+**deploy docker**
+```
+sudo docker compose up -d
+```
 **กำหนด Tag**
 ```
 docker tag swarm02-backend dnujira/swarm02-backend:sw02
